@@ -18,11 +18,7 @@ export default class AppClass extends React.Component {
 
   state = initialState;
 
-  componentDidMount() {
-    
-  }
-
-  getXY = () => {
+   getXY = () => {
     let x = this.state.index % 3 + 1;
     let y = Math.floor(this.state.index / 3)+1;
     return {xCoord: x, yCoord: y}
