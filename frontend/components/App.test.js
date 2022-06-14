@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import {render, screen, fireEvent} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import AppClass from '../components/AppClass';
